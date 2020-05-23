@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="1582ff6c-77b1-4473-b8de-56931e41b68a" version="1">
+  <Properties>
+    <Name>Meteors Spawn Metals</Name>
+    <Description>Meteor strikes will spawn iron. Once the game has reached the modern era, they will spawn aluminum instead.</Description>
+    <Created>1590254743</Created>
+    <Teaser>Meteor storms now spawn metals.</Teaser>
+    <Authors>SailorCat</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <InGameActions>
+    <AddGameplayScripts id="lua">
+      <Properties>
+        <LoadOrder>100</LoadOrder>
+      </Properties>
+      <File>Sailor_Meteoric_Iron_Functions.lua</File>
+    </AddGameplayScripts>
+  </InGameActions>
+  <Files>
+    <File>Sailor_Meteoric_Iron_Functions.lua</File>
+  </Files>
+</Mod>
